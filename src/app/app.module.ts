@@ -3,8 +3,9 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CardInfoModule } from './core/components/card/card-info.module';
-import { PanelInfoModule } from './core/components/panel/panel-info.module';
+import { CvService } from './core/services/cv.service';
+import { HttpClientModule } from '@angular/common/http';
+import { CvModule } from './core/components/cv/cv.module';
 
 @NgModule({
   declarations: [
@@ -13,10 +14,12 @@ import { PanelInfoModule } from './core/components/panel/panel-info.module';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    CardInfoModule,
-    PanelInfoModule
+    HttpClientModule,
+    CvModule
   ],
-  providers: [],
+  providers: [
+    CvService
+  ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }

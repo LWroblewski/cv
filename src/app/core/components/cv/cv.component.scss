@@ -1,0 +1,48 @@
+:host {
+  .app-cv {
+
+    .app-cv-header {
+      margin-bottom: 1rem;
+
+      h2 {
+        margin: 0;
+      }
+
+      .app-cv-header-content {
+        display: flex;
+        width: 100%;
+
+        .app-cv-header-presentation {
+          flex: 1 1 auto;
+          text-align: justify;
+        }
+
+        img.app-cv-header-picture {
+          max-width: 120px;
+          margin-right: 1rem;
+          -moz-border-radius: 50%;
+          -webkit-border-radius: 50%;
+          border-radius: 50%;
+        }
+      }
+    }
+
+    .app-cv-body {
+      padding-left: .7rem;
+
+      .app-cv-body-main {
+        ::ng-deep div.ui-panel {
+          margin-bottom: 1rem;
+        }
+      }
+
+      .app-cv-body-right {
+        padding-top: 0;
+
+        ::ng-deep div.ui-panel {
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}

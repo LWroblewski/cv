@@ -1,0 +1,28 @@
+:host {
+
+  i.pi {
+    vertical-align: text-bottom;
+    margin-right: .2rem;
+  }
+
+  .app-ratings {
+    display: flex;
+
+    .app-rating-title {
+      flex: 1 0 auto;
+    }
+
+    ::ng-deep .ui-rating {
+      vertical-align: middle;
+    }
+  }
+
+  ul.app-list {
+    margin: 0;
+    padding-left: 1rem;
+  }
+
+  .app-text {
+
+  }
+}

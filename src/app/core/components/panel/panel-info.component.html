@@ -1,3 +1,25 @@
-<p-panel header="Title">
-  Content test
+<p-panel>
+  <p-header>
+    <div class="ui-helper-clearfix">
+      <i [class]="icon"></i>
+      <span class="ui-panel-title">{{ title }}</span>
+    </div>
+  </p-header>
+  <div [ngSwitch]="contentType">
+    <ng-container *ngSwitchCase="'rating'">
+      <div *ngFor="let line of contentBody" class="app-ratings">
+        <span class="app-rating-title">{{ getLineKey(line) }}</span>
+        <p-rating [ngModel]="getLineValue(line)" readonly="true" stars="5" [cancel]="false"></p-rating>
+      </div>
+    </ng-container>
+    <ng-container *ngSwitchCase="'list'">
+      <ul class="app-list">
+        <li *ngFor="let line of contentBody" [innerHTML]="line"></li>
+      </ul>
+    </ng-container>
+    <ng-container *ngSwitchCase="'text'">
+      {{ contentBody }}
+    </ng-container>
+    <ng-container *ngSwitchDefault></ng-container>
+  </div>
 </p-panel>

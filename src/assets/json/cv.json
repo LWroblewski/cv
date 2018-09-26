@@ -1,0 +1,185 @@
+{
+  "name": "Laurent Wroblewski",
+  "picture": "assets/picture.jpg",
+  "jobTitle": "Ingénieur Développement Web/Mobile",
+  "presentation": "Passionné par la technique, j'ai participé à de nombreux projets web & mobile (en tant que développeur full stack), dans des domaines métier et techniques variés.<br/>J'ai régulièrement été amené à travailler sur la mise en place et l'architecture de nouvelles applications, ainsi que sur leurs process d'intégration continue, et ai pu dispenser plusieurs formations (sur Angular notamment).<br/>De manière plus personnelle, je travaille sur plusieurs projets techniques (web & mobiles), et ai animé plusieurs meetups et conférences sur Lille et Toulouse.",
+  "blocs": [
+    {
+      "title": "Expériences",
+      "data": [
+        {
+          "date": {
+            "from": "08/2017",
+            "to": "Aujourd'hui"
+          },
+          "content": {
+            "title": "Ingénieur études & développement confirmé Angular / i-BP / Toulouse (31)",
+            "summary": "Dans le cadre de la transformation digitale au sein d'i-BP, expertise et développement sur de nouveaux sites web bancaires grand public en Angular 4/5/6.",
+            "list": [
+              "Architecture et développement sur des applications de crédit Pro/Immo en <b>Angular 4/5/6</b> et <b>Ngrx</b>.",
+              "Développement et industrialisation de librairies de composants transverses (mono-repo de librairies transverses avec le toolkit <b>nwrl nx</b>).",
+              "Présentations sur des sujets web Angular (ngrx, MobX, etc).",
+              "Mise en place de tests e2e avec <b>Testcafe</b> et <b>cucumber-js</b>"
+            ]
+          }
+        }, {
+          "date": {
+            "from": "12/2015",
+            "to": "07/2017"
+          },
+          "content": {
+            "title": "Ingénieur études & développement Full Stack – mobilité-web / ADEO / Ronchin (59)",
+            "summary": "Développement et architecture d’applications mobiles et web au sein de l’équipe digitale d’Adeo, à destination des enseignes du groupe (<i>Leroy Merlin</i>, <i>AKI</i>, <i>Bricocenter</i>, etc). Tests et recettes utilisateurs menés directement en magasin (Lisbonne, Porto, Athènes).",
+            "list": [
+              "Création d’une application mobile native collaborative (<i>MyHome</i>) à destination des collaborateurs (liste des achats collaborateurs, avis produits, forum d’échange, etc). Développement mobile natif <b>Android (Kotlin)</b>, et APIs J2EE (<b>Spring Boot</b>)/<b>NodeJS</b>/<b>MongoDB</b>/<b>ElasticSearch</b>.",
+              "Création d’une application mobile interne pour les collaborateurs Leroy Merlin en magasin: gestion de produits (stocks, prix, etc). Développement mobile natif Android, et backend J2EE (Spring Boot).",
+              "Développement d’une application mobile hybride (visu temps réel de l’évolution du CA des enseignes Adeo) en <b>Angular4</b>/<b>Ionic 3</b>.",
+              "Développement d’une application web interne pour le traitement d’avis produits en <b>Angular 4</b>/<b>NodeJS</b>.",
+              "Conseil et expertise sur les projets mobilité des enseignes Adeo. Présentations sur les technos hybrides."
+            ]
+          }
+        }, {
+          "date": {
+            "from": "09/2013",
+            "to": "11/2015"
+          },
+          "content": {
+            "title": "Ingénieur études & développement mobilité/J2ee / Wizeoo / Marcq en Baroeul (59)",
+            "summary": "Architecture et développement d’applications web et mobiles dans le domaine du retail.",
+            "list": [
+              "Développement d’une application web (et backend J2EE) à destination des vendeurs de la Marketplace de <i>La Redoute</i>.",
+              "Développement d’applications web Flex/J2EE (<b>Spring</b>, <b>Hibernate</b>) pour la grande distribution (CMS, gestion produits, stocks, etc).",
+              "Conception/développement en Flex/J2ee (Spring, Hibernate) d’une application de suivi de clients et de commandes pour <i>Lyreco</i> (fournitures de bureau et services généraux). Développée pour PC et mobile (iOS & Android), multi-langues, avec de fortes contraintes de performances. Gestion d’un mode déconnecté."
+            ]
+          }
+        }, {
+          "date": {
+            "from": "2012",
+            "to": "2013"
+          },
+          "content": {
+            "title": "Ingénieur études & développement Full Stack / ATOS Worldline/ Seclin (59)",
+            "summary": "Développement, support et expertise sur des applications web/J2EE (<b>AngularJS</b>/<b>Tapestry</b>).",
+            "list": [
+              "Développement de librairies de composants AngularJS.",
+              "Formations AngularJS.",
+              "R&D sur les frameworks web, et animation de conférences en interne sur AngularJS."
+            ]
+          }
+        }, {
+          "date": {
+            "from": "2009",
+            "to": "2012"
+          },
+          "content": {
+            "title": "Ingénieur études & développement Full Stack / Cylande CS/ Roubaix (59)",
+            "list": [
+              "Développement d'applications web et mobiles Flex/J2ee dans le domaine du retail.",
+              "Intégration à l’équipe Architecture Flex (développement d’un framework pour les développeurs et de librairies de composants, formations, revues de code, industrialisation)."
+            ]
+          }
+        }
+      ]
+    }, {
+      "title": "Formation",
+      "data": [
+        {
+          "date": {
+            "from": "2004",
+            "to": "2009"
+          },
+          "content": {
+            "list": [
+              "Formation d'ingénieur, spécialité informatique, à l’IG2I (Institut de Génie Informatique et Industriel) de Lens, département de l'École Centrale de Lille."
+            ]
+          }
+        }
+      ]
+    }, {
+      "title": "Divers",
+      "data": [
+        {
+          "title": "entreprise",
+          "content": {
+            "list": [
+              "Présentation de Meetups et BBLs sur les technologies web (Angular, Ionic, RxJS, MobX, ngrx, etc)",
+              "Formations AngularJS/Angular",
+              "Coaching/architecture technique sur des projets web (Angular/NodeJS) transverses d’entreprise."
+            ]
+          }
+        }, {
+          "title": "personnel",
+          "content": {
+            "list": [
+              "Projets personnels d’applications web/mobile en Angular & React.",
+              "Professeur vacataire à l’IG2i (module développement web).",
+              "Membre d’un club de basket"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "panels": [
+    {
+      "header": {
+        "title": "Personnel",
+        "icon": "pi-home"
+      },
+      "body": {
+        "type": "list",
+        "content": [
+          "Laurent WROBLEWSKI",
+          "Né le 07/09/1986",
+          "Habite à ROQUES (31200)",
+          "Langues: Français, Anglais"
+        ]
+      }
+    }, {
+      "header": {
+        "title": "Contact",
+        "icon": "pi-user"
+      },
+      "body": {
+        "type": "list",
+        "content": [
+          "<i class='fa fa-phone'></i> 06 05 37 77 49",
+          "<i class='fa fa-envelope'></i> <a href='mailto:laurent.wroblew@gmail.com' target='_blank'>laurent.wroblew@gmail.com</a>",
+          "<i class='fa fa-twitter'></i> <a href='https://twitter.com/LaurentWrob' target='_blank'>@LaurentWrob</a>",
+          "<i class='fa fa-linkedin'></i> <a href='https://www.linkedin.com/in/laurent-wroblewski-301b45147/' target='_blank'>Laurent Wroblewski</a>",
+          "<i class='fa fa-github'></i> <a href='https://github.com/LWroblewski' target='_blank'>LWroblewski</a>"
+        ]
+      }
+    }, {
+      "header": {
+        "title": "Langages",
+        "icon": "pi-star"
+      },
+      "body": {
+        "type": "rating",
+        "content": [
+          { "JS" : "5" },
+          { "Android" : "4" },
+          { "Kotlin" : "4" },
+          { "Java" : "4" }
+        ]
+      }
+    }, {
+      "header": {
+        "title": "Technologies",
+        "icon": "pi-tags"
+      },
+      "body": {
+        "type": "list",
+        "content": [
+          "Angular 6.X, RxJS, ngrx",
+          "Ionic 3.X",
+          "React",
+          "AngularJS 1.7.X",
+          "Node (Express, Mongoose, Nest)",
+          "Spring Boot"
+        ]
+      }
+    }
+  ]
+}

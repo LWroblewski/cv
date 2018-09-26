@@ -1,0 +1,15 @@
+:host {
+  .app-bloc-data {
+
+    .app-bloc-data-title, .app-bloc-data-date {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .app-bloc-data-content {
+      text-align: justify;
+    }
+  }
+}

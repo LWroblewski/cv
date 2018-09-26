@@ -1,0 +1,26 @@
+<div *ngIf="cv" class="app-cv">
+  <div class="app-cv-header">
+    <p-fieldset>
+      <p-header>
+        <h2>{{ cv.name }}</h2>
+        <i>{{ cv.jobTitle }}</i>
+      </p-header>
+      <div class="app-cv-header-content">
+        <div *ngIf="cv.picture">
+          <img [src]="cv.picture"  class="app-cv-header-picture" />
+        </div>
+        <div [innerHTML]="cv.presentation" class="app-cv-header-presentation"></div>
+      </div>
+    </p-fieldset>
+  </div>
+
+  <div class="app-cv-body p-grid">
+    <div class="app-cv-body-main p-col-12 p-md-8 p-lg-9 p-col-nogutter">
+      <app-bloc *ngFor="let bloc of cv.blocs" [bloc]="bloc"></app-bloc>
+    </div>
+
+    <div class="app-cv-body-right p-col-12 p-md-4 p-lg-3">
+      <app-panel *ngFor="let content of cv.panels" [content]="content"></app-panel>
+    </div>
+  </div>
+</div>

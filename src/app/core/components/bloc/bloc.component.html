@@ -1,0 +1,15 @@
+<p-panel [header]="bloc.title">
+  <div *ngFor="let data of bloc.data" class="app-bloc-data p-grid">
+    <div *ngIf="data.title" [innerHTML]="data.title" class="app-bloc-data-title p-col-2"></div>
+    <div *ngIf="data.date"class="app-bloc-data-date p-col-2">
+      {{ data.date.from }}<br/>-<br/>{{ data.date.to }}
+    </div>
+    <div class="app-bloc-data-content p-col-10">
+      <h4 *ngIf="data.content.title" [innerHTML]="data.content.title"></h4>
+      <span *ngIf="data.content.summary" [innerHTML]="data.content.summary"></span>
+      <ul *ngIf="data.content.list">
+        <li *ngFor="let listData of data.content.list" [innerHTML]="listData"></li>
+      </ul>
+    </div>
+  </div>
+</p-panel>
