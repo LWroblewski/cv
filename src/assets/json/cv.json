@@ -9,8 +9,22 @@
       "data": [
         {
           "date": {
-            "from": "08/2017",
+            "from": "10/2018",
             "to": "Aujourd'hui"
+          },
+          "content": {
+            "title": "Ingénieur études & développement confirmé Android / Renault Software Labs / Toulouse (31)",
+            "summary": "Développement d'applications de démo Android pour ordinateurs de bord auto.",
+            "list": [
+              "Architecture/développement Android sur des applications d'affichage d'alertes proximité du véhicule.",
+              "Mise en place d'une librairie de theming extensible pour chaque marque automobile",
+              "Utilisation de Kotlin / RxJava / Koin."
+            ]
+          }
+        }, {
+          "date": {
+            "from": "08/2017",
+            "to": "10/2018"
           },
           "content": {
             "title": "Ingénieur études & développement confirmé Angular / i-BP / Toulouse (31)",
@@ -103,6 +117,7 @@
           "content": {
             "list": [
               "Présentation de Meetups et BBLs sur les technologies web (Angular, Ionic, RxJS, MobX, ngrx, etc)",
+              "Speaker au DevFest Toulouse 2018 (Mise en place de tests BDD pour une application web Angular)",
               "Formations AngularJS/Angular",
               "Coaching/architecture technique sur des projets web (Angular/NodeJS) transverses d’entreprise."
             ]
@@ -111,7 +126,7 @@
           "title": "personnel",
           "content": {
             "list": [
-              "Projets personnels d’applications web/mobile en Angular & React.",
+              "Projets personnel d’application mobile en Flutter & backend en NestJS.",
               "Professeur vacataire à l’IG2i (module développement web).",
               "Membre d’un club de basket"
             ]
@@ -161,7 +176,8 @@
           { "JS" : "5" },
           { "Android" : "4" },
           { "Kotlin" : "4" },
-          { "Java" : "4" }
+          { "Java" : "4" },
+          { "Flutter" : "3.5" }
         ]
       }
     }, {
